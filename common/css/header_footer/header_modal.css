@@ -1,0 +1,22 @@
+.brand-m-Header *,
+.brand-m-Header *::before,
+.brand-m-Header *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: inherit;
+  font-family: helvetica, arial, meiryo, sans-serif;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.brand-m-Header_inner {
+  max-width: calc(var(--width-contents-max-size-modal-nav) + var(--width-contents-padding) * 2);
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: var(--width-contents-padding);
+  padding-right: var(--width-contents-padding);
+  padding-top: 17px;
+  padding-bottom: 14px;
+}

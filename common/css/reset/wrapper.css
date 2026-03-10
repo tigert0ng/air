@@ -1,0 +1,35 @@
+.brand-Wrapper *,
+.brand-Wrapper *::before,
+.brand-Wrapper *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: inherit;
+  font-family: helvetica, arial, meiryo, sans-serif;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.brand-Wrapper {
+  color: var(--color-text);
+}
+
+.brand-Wrapper sup {
+  font-size: 0.72em;
+  vertical-align: super;
+}
+
+.brand-Wrapper sub {
+  font-size: 0.72em;
+  vertical-align: sub;
+}
+
+.brand-Wrapper a {
+  text-decoration: none;
+}
+
+.brand-Wrapper strong,
+.brand-Wrapper em {
+  font-weight: bold;
+}

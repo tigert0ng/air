@@ -1,0 +1,25 @@
+.brand-Footer {
+  background: #111;
+  color: #fff;
+}
+
+.brand-Footer_inner {
+  max-width: calc(var(--width-contents-max-size) + var(--width-contents-padding) * 2);
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: var(--width-contents-padding);
+  padding-right: var(--width-contents-padding);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.brand-Footer_copyright {
+  font-size: calc(12 / var(--font-size-root) * 1rem);
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .brand-Footer_copyright {
+    text-align: center;
+  }
+}

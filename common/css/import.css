@@ -1,0 +1,14 @@
+/* Reset style of local site */
+@import url(/air/common/css/vendor/reset.css);
+/* Reset style for brand contents */
+@import url(/air/common/css/reset/wrapper.css);
+@import url(/air/common/css/reset/wrapper_modal.css);
+/* Variable */
+@import url(/air/common/css/variable/variable.css);
+/* Header & Footer */
+@import url(/air/common/css/header_footer/header.css);
+@import url(/air/common/css/header_footer/footer.css);
+/* Contents */
+@import url(/air/common/css/contents/contents_area.css);
+@import url(/air/common/css/contents/nav.css);
+@import url(/air/common/css/contents/utility.css);
